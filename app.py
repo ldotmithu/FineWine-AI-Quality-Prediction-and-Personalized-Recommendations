@@ -4,6 +4,8 @@ from src.gen_ai.helper import GenAI
 from src.Pipeline.prediction import Predication_Pipeline
 import os 
 
+from test import file
+
 
 gen_ai = GenAI()
 prediction_pipeline = Predication_Pipeline()
@@ -120,6 +122,8 @@ if st.sidebar.button("🔧 Train Model"):
         try:
             os.system("python main.py")
             st.success("🎉 Training completed successfully!")
+            
+            st.success(f'accuracy :{file}')
         except Exception as e:
             st.error(f"❌ Training failed: {str(e)}")
 
