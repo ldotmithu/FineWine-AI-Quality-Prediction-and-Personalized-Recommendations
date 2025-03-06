@@ -2,6 +2,7 @@ from src.components.data_ingestion import DataIngestion
 from src.components.data_validation import DataValidation
 from src.components.data_transfomation import DataTransform
 from src.Config.config_entity import DataTransfomationConfig
+from src.components.model_trainer import ModelTrainer
 
 from src import logging
 
@@ -34,5 +35,13 @@ class DataTransformPipeline:
                 logging.error('Data Validation Sataus is False')
             else:    
                 transform = DataTransform()
-                transform.get_initiate_preprocess()       
+                transform.get_initiate_preprocess()  
+
+class ModelTrainPipeline:
+    def __init__(self):
+        pass
+    
+    def main(self):
+        trainer = ModelTrainer()
+        trainer.initiate_model_training()                      
                 

@@ -22,3 +22,8 @@ class DataTransfomationConfig:
     data_path:Path = "artifacts/data_ingestion"
     preprocess_path:str = "preprocess.pkl"    
       
+@dataclass
+class ModelTrainerConfig:
+    root_dir:Path= "artifacts/model_trainer" 
+    train_data_path:Path = "artifacts/data_transform/train.npy"
+    model_path = "model.pkl"      
