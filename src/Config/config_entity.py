@@ -8,3 +8,10 @@ class DataIngestionConfig:
     URL:str = "https://github.com/ldotmithu/Dataset/raw/refs/heads/main/winequality-red.zip"
     local_data_path:Path = "artifacts/data_ingestion/data.zip"
     unzip_dir:Path = "artifacts/data_ingestion"
+    
+@dataclass
+class DataValidationConfig:
+    root_dir:Path = "artifacts/data_validation"
+    data_path:Path = "artifacts/data_ingestion"
+    status_path:Path = "artifacts/data_validation/Status.txt"
+      
