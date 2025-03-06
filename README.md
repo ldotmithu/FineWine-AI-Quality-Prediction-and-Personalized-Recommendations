@@ -46,20 +46,24 @@ Before running the code, make sure to have the following software installed:
 - Python 3.10 🐍
 - **pip** (Python package installer)
 
-### Step 1: Clone the repository
+## 📥 Installation & Setup
 
+Clone the repository:
 ```bash
-git clone https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations
-### Step 2: Install dependencies 📥
-Navigate to the project folder and install the required Python libraries.
-```bash
+git clone https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations.git
 cd FineWine-AI-Quality-Prediction-and-Personalized-Recommendations
+```
+
+Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
-### Step 3: Run the model 🚀
-After setting up the environment, you can run the wine quality prediction and recommendations script.
+
+Run the application:
 ```bash
 streamlit run app.py
+```
+---
 ```
 ### Model Training 📚 🚀
 The machine learning model is trained on a dataset that includes features such as acidity levels, alcohol content, and residual sugar. It uses Random Forest for classification tasks to predict the quality of wine based on the input properties.
