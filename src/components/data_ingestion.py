@@ -3,7 +3,7 @@ from src import logging
 from src.Utility.common import Create_Folder
 import zipfile,os
 from urllib import request
-
+3
 class DataIngestion:
     def __init__(self):
         self.ingestion = DataIngestionConfig()
