@@ -3,6 +3,7 @@ from src.components.data_validation import DataValidation
 from src.components.data_transfomation import DataTransform
 from src.Config.config_entity import DataTransfomationConfig
 from src.components.model_trainer import ModelTrainer
+from src.components.model_evaluation import ModelEvaluation
 
 from src import logging
 
@@ -43,5 +44,13 @@ class ModelTrainPipeline:
     
     def main(self):
         trainer = ModelTrainer()
-        trainer.initiate_model_training()                      
+        trainer.initiate_model_training()   
+        
+class ModelEvaluationPipeline:
+    def __init__(self):
+        pass
+    
+    def main(self):
+        evaluation = ModelEvaluation()
+        evaluation.evaluation()                             
                 

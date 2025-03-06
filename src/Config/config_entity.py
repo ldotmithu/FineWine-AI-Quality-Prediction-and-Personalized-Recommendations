@@ -26,4 +26,12 @@ class DataTransfomationConfig:
 class ModelTrainerConfig:
     root_dir:Path= "artifacts/model_trainer" 
     train_data_path:Path = "artifacts/data_transform/train.npy"
-    model_path = "model.pkl"      
+    model_path = "model.pkl"
+
+@dataclass
+class ModelEvaluationConfig:
+    root_dir:Path = "artifacts/model_evaluation"   
+    model_path:Path ="artifacts/model_trainer/model.pkl"
+    test_data_path:Path = "artifacts/data_transform/test.npy"
+    metrics_path:str="metrics.json"     
+          
