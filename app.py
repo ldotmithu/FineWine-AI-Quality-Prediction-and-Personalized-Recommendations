@@ -139,7 +139,7 @@ st.markdown(
                 GitHub
             </a>
             &nbsp;|&nbsp;
-            <a href="https://www.linkedin.com/in/YourLinkedIn/" target="_blank">
+            <a href="https://www.linkedin.com/in/mithurshan6/" target="_blank">
                 <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="20" height="20"/>
                 LinkedIn
             </a>
