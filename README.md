@@ -49,7 +49,7 @@ Before running the code, make sure to have the following software installed:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations.git
+git clone [https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations.git](https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations.git)
 ```
 ### Step 2: Install dependencies 📥
 Navigate to the project folder and install the required Python libraries.
