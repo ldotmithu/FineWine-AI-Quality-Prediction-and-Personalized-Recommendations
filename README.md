@@ -73,9 +73,21 @@ Data Preprocessing: The dataset is cleaned, normalized, and prepared for trainin
 Model Selection: We use Random Forest for classification due to its robustness and ability to handle complex relationships between features.
 
 Model Evaluation: The model is evaluated using standard metrics such as accuracy score, precision, recall, and F1-score to ensure reliable performance.
+---
+
+### Contributor: L. Mithurshan
+---
 
 ### License 📝
 This project is licensed under the Apache License 📜
+---
+
+## **Glance of the Project**
+
+![image](https://github.com/ldotmithu/Dataset/blob/main/Screenshot%202025-03-07%20at%2003.04.48.png)
+---
+
+Happy coding! 😊
 
 
 
