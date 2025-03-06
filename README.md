@@ -64,7 +64,7 @@ Run the application:
 streamlit run app.py
 ```
 ---
-```
+
 ### Model Training 📚 🚀
 The machine learning model is trained on a dataset that includes features such as acidity levels, alcohol content, and residual sugar. It uses Random Forest for classification tasks to predict the quality of wine based on the input properties.
 
