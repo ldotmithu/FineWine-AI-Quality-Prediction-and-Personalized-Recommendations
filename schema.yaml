@@ -12,6 +12,25 @@ COLUMNS:
   alcohol: float64
   quality: int64
 
-TARGET:
-  - quality
+TARGET: quality
+
+DROP_COLUMNS:
+  - residual sugar
+  - free sulfur dioxide
+
+POWER:
+  - fixed acidity
+  - alcohol
+  - sulphates
+
+NUM_COLUMNS:
+  - fixed acidity
+  - volatile acidity
+  - citric acid
+  - chlorides
+  - total sulfur dioxide
+  - density
+  - pH
+  - sulphates
+  - alcohol
    
