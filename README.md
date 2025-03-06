@@ -51,6 +51,8 @@ Before running the code, make sure to have the following software installed:
 Clone the repository:
 ```bash
 git clone https://github.com/ldotmithu/FineWine-AI-Quality-Prediction-and-Personalized-Recommendations.git
+```
+```bash
 cd FineWine-AI-Quality-Prediction-and-Personalized-Recommendations
 ```
 
